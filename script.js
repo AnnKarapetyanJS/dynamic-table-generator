@@ -67,7 +67,7 @@ function createTable(data) {
                         <td>${data[i].skills.join(', ')}</td>
 
                     </tr>`;
-        table.innerHTML += row;            
+          table.insertAdjacentHTML('beforeend', row);            
     }
 }
 
